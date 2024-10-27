@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul id="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="home">
+        <h1>Hi, I'm <span>Sanjib Behera</span></h1>
+        <p>Web Developer</p>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer. I love to design and develop websites. I have been working in this field for the last 5 years. I have worked on various projects and have developed many websites. I have a good knowledge of HTML, CSS, JavaScript, PHP, and MySQL. I have also worked on WordPress and have developed many websites using WordPress. I am a quick learner and I am always ready to learn new things.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Git & Github</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>This is a project description. This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>This is a project description. This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.</p>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>This is a project description. This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="contact.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sanjib Behera</p>
+    </footer>
+</body>
+</html>
