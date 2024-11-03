@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+
+
 </head>
-<body>
-    <nav>
-        <ul id="navbar">
+<body>    
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="logo">Sanjib Behera </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="navbar" class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Me</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -16,53 +26,109 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <header id="home">
-        <h1>Hi, I'm <span>Sanjib Behera</span></h1>
-        <p>Web Developer</p>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a web developer. I love to design and develop websites. I have been working in this field for the last 5 years. I have worked on various projects and have developed many websites. I have a good knowledge of HTML, CSS, JavaScript, PHP, and MySQL. I have also worked on WordPress and have developed many websites using WordPress. I am a quick learner and I am always ready to learn new things.</p>
+    
+
+    
+
+    <!-- Sections -->
+    <section id="home">
+        <div class="home-content">
+            <div class="text-content">
+                <h1>Hi, I'm <span class="typing" id="typed-text"></span></h1>
+                
+            </div>
+            <div class="image-content">
+                <img src="assets/hello.png" alt="Sanjib Behera" class="profile-image">
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/hit-knight" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:goodnight@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
     </section>
+    
+    
+    
+    <section id="about">
+        <div id="about-pg">
+        <h2>About Me</h2>
+        <p>I'm Sanjib Behera, a dedicated learner in web development with a passion for creating responsive and engaging websites. Currently honing my skills in front-end and back-end technologies, I enjoy exploring new tools and frameworks to build intuitive and efficient web applications. With an eye on innovation and future potential, I aim to apply my knowledge toward impactful projects and eventually contribute to a startup.</p>
+        </div>
+    </section>
+
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Bootstrap</li>
-            <li>Git & Github</li>
-        </ul>
+        <div class="skill-set">
+            <article class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </article>
+            <article class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </article>
+            <article class="skill">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+            </article>
+            <article class="skill">
+                <i class="fab fa-bootstrap"></i>
+                <h3>Bootstrap</h3>
+            </article>
+            <article class="skill">
+                <i class="fab fa-git-alt"></i>
+                <h3>Github</h3>
+            </article>
+        </div>
     </section>
+    
+    
+
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>This is a project description. This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.</p>
-        </div>
-        <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>This is a project description. This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.</p>
-        </div>
-        <div class="project">
-            <img src="project3.jpg" alt="Project 3">
-            <h3>Project 3</h3>
-            <p>This is a project description. This is a project description. This is a project description. This is a project description. This is a project description. This is a project description.</p>
+        <div class="project-gallery">
+            <div class="project active">
+                <img src="assets/project1.jpg" alt="Calculator">
+                <h3>Calculator</h3>
+                <p>This is a simple calculator project...</p>
+            </div>
+            <div class="project">
+                <img src="assets/project2.jpg" alt="Portfolio Website">
+                <h3>Portfolio Website</h3>
+                <p>This is my personal portfolio website...</p>
+            </div>
+            <div class="project">
+                <img src="assets/more-projects.jpg" alt="More Projects">
+                <h3>More Projects...</h3>
+                <p>Check out additional projects I've worked on...</p>
+            </div>
         </div>
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
+    
+    
+    
+    
+    
+   
+    
+    <section id="contac">
+        <div id="contact">
+        <h2>Contact Me</h2>
         <form action="contact.php" method="post">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send</button>
         </form>
+    </div>
     </section>
-    <footer>
+    <footer style="text-align: center;">
         <p>&copy; 2024 Sanjib Behera</p>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
