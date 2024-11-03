@@ -1,41 +1,27 @@
-# Personal Portfolio Website
+# Portfolio WebCSE
 
-Welcome to my personal portfolio website! As a web development student, I've designed this site to showcase my skills and projects to potential employers and clients. This is a sample portfolio website, skills to be added in the furure.
+Welcome to my Portfolio WebCSE project! This project showcases my skills and projects in web development.
 
-## Overview
+## Deployed Link
 
-This portfolio features a modern, responsive design that adapts seamlessly to both desktop and mobile devices. It includes various sections that highlight my technical abilities, provide insights into my background, and present my projects in an engaging format.
+You can view the live version of the portfolio here: [Portfolio WebCSE](https://hit-knight.github.io/portfolio-webcse/)
 
-## Key Features
+## Features
 
-- **Responsive Design**: Optimized for various devices, ensuring a great user experience.
-- **Smooth Scrolling Navigation**: Effortlessly navigate to different sections of the site.
-- **About Me Section**: A brief introduction and background information.
-- **Skills Showcase**: A section dedicated to my technical skills and proficiencies.
-- **Project Gallery**: Displays my projects with descriptions and links to live demos.
-- **Static Contact Form**: Designed for aesthetics and future interactivity.
+- **Responsive Design**: The portfolio is designed to work on various devices, ensuring a great user experience on both desktop and mobile.
+- **Project Showcases**: Includes detailed information about various projects I've worked on.
+- **Contact Information**: A section to reach out to me for collaborations or inquiries.
 
-## Tech Stack
+## Technologies Used
 
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling the website.
-- **JavaScript (ES6+)**: To add interactivity.
-- **Bootstrap 5**: For responsive design components.
-- **Git & GitHub**: For version control and deployment.
+- HTML
+- CSS
+- JavaScript
 
-## Expected Development Timeline
+## Installation
 
-- **Day 1**: Planning and Design
-- **Day 2**: HTML Structure
-- **Day 3-4**: Styling with CSS and Bootstrap
-- **Day 5**: Adding Interactivity with JavaScript
-- **Day 6**: Testing and Refinement
-- **Day 7**: Deployment to GitHub Pages
+To run this project locally, follow these steps:
 
-## GET STARTED
-
-```bash 
-#Clone the repository 
-git clone https://github.com/hit-knight/portfolio-webcse.git
-cd portfolio-webcse
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hit-knight/portfolio-webcse.git
