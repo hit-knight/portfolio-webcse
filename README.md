@@ -4,7 +4,7 @@ Welcome to my Portfolio WebCSE project! This project showcases my skills and pro
 
 ## Deployed Link
 
-You can view the live version of the portfolio here: [Portfolio WebCSE](https://hit-knight.github.io/portfolio-webcse/)
+You can view the live version of the portfolio here: [Portfolio WebCSE](https://sanjib2006.github.io/portfolio-webcse/)
 
 ## Features
 
